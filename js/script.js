@@ -1,3 +1,4 @@
+if(window.innerWidth>480){
 var ctr = new paper.Point(window.innerWidth*2,window.innerHeight*2);
 var bounds = new paper.Point(window.innerWidth*2,window.innerHeight);
 var spex = {
@@ -54,4 +55,5 @@ function onMouseMove(ev){
           }
 }
 if(navigator.userAgent.indexOf('iPhone')>0)
-$('#myCanvas').remove()
+  $('#myCanvas').remove();
+}
