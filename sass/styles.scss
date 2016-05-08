@@ -59,7 +59,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 
 	        }
 
-			
+
 			* {
 
 		        font-family: Iowan,Helvetica Bold;
@@ -77,7 +77,10 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 		        z-index:6;
 		        position:fixed;;
 		        opacity:.2;
-
+						@media(max-width: 480px){
+							display: none;
+							pointer-events: none;
+						}
 	        }
 	        #title, #exhibitions {
 		        text-align:left;
@@ -100,13 +103,21 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 		        margin-bottom:5%;
 
 		        font-size:1.5em;
-
+						.list {
+							padding: 0 20px;
+							.exhib {
+							    margin-top: 1em;
+								}
+						}
 	        }
 
 	        .poster{
 		        width:45%;
 		        margin-right:2.5%;
 		        margin-left:2.5%;
+						@media(max-width: 480px){
+							width: 83%;
+						}
 	        }
 	        #address {
 		        padding:1%;
@@ -118,6 +129,7 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 		        font-size: 1em;
 		        font-weight: 600;
 		        font-family: TimesNewRoman;
+
 	        }
 	        #aa {
 		        text-decoration: line-through;
