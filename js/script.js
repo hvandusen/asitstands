@@ -39,10 +39,11 @@ function whl(entry)
         }
 
 
-
+$('#myCanvas').css('z-index') !== '-1' && $('#myCanvas').css('z-index','-1');
 function onMouseMove(ev){
   $('#myCanvas').css('z-index') !== '-1' && $('#myCanvas').css('z-index','-1');
-
+  if(!ctr)
+    return
   pt = [ev%window.outerWidth,ctr.y]
   stopLocation = .5+Math.sin(ev.count/100)*.5
   percentString = stopLocation.toString();
