@@ -6,6 +6,7 @@ var spex = {
   y:Math.floor(Math.random()*40),
   size: 3+Math.random()*15,
 }
+
 var count = 500+Math.floor(Math.random()*200)//Math.floor(Math.random()*1536);
 
 var speed = 1//Math.floor(Math.random()*3)
