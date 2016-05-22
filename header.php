@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, height=device-height,initial-scale=0.5, maximum-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=0.5, maximum-scale=1">
 	<title><?php bloginfo('name'); ?></title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
