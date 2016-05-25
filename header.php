@@ -15,7 +15,7 @@
 	<script>window.jQuery || document.write('<script src="<?php bloginfo('template_directory'); ?>/js/compressed/jquery.min.js"><\/script>')</script>
 	<script type='text/javarscript' src='<?php bloginfo('template_directory'); ?>/js/paper.js' ></script>
 	<script type='text/javarscript' src='<?php bloginfo('template_directory'); ?>/js/secondary.js' ></script>
-	<script type='text/paperscript' src='<?php bloginfo('template_directory'); ?>/js/script.js' canvas='myCanvas'></script>
+	<!-- <script type='text/paperscript' src='<?php bloginfo('template_directory'); ?>/js/script.js' canvas='myCanvas'></script> -->
 
 </head>
 
