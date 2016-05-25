@@ -1,4 +1,9 @@
+
 if(window.innerWidth>480){
+  window.onload = function() {
+  var canvas = document.getElementById('myCanvas');
+		// Create an empty project and a view for the canvas:
+		paper.setup(canvas);
 var ctr = new paper.Point(window.innerWidth*2,window.innerHeight*2);
 var bounds = new paper.Point(window.innerWidth*2,window.innerHeight);
 var spex = {
@@ -7,7 +12,7 @@ var spex = {
   size: 3+Math.random()*15,
 }
 
-var count = 500+Math.floor(Math.random()*200)//Math.floor(Math.random()*1536);
+var count = 500+Math.floor(Math.random()*200);//Math.floor(Math.random()*1536);
 
 var speed = 1//Math.floor(Math.random()*3)
 var difference = 300//Math.random()*100
@@ -56,6 +61,8 @@ function onMouseMove(ev){
       destination: [screen.availWidth+150,screen.availHeight/2]
           }
 }
+paper.view.draw();
 if(navigator.userAgent.indexOf('iPhone')>0)
   $('#myCanvas').remove();
+}
 }
