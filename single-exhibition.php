@@ -7,7 +7,8 @@
 	$images = get_field('images');
 		if(is_array($images) && !empty($images)){
 		foreach($images as $image){
-			$url = $image['image']['url'];
+			//$url = $image['image']['url'];
+			$url = $image['image']['sizes']['large'];
 			?>
 
 				<img class='exImage' src='<?php echo $url ?>'></img><br>
