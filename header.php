@@ -16,7 +16,7 @@
 	<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/paper.js' ></script>
 	<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/secondary.js' ></script>
 	<!-- <script type='text/paperscript' src='<?php bloginfo('template_directory'); ?>/js/script.js' canvas='myCanvas'></script> -->
-	<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/script.js'></script> 
+	<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/script.js'></script>
 
 </head>
 

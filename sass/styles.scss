@@ -39,14 +39,15 @@ a[href$=jpg], a[href$=jpeg], a[href$=jpe], a[href$=png], a[href$=gif] {
 }
 
 body {
-	@media(max-width: 480px){
+	//@media(max-width: 480px){
 		background: #f6b5ff; /* Old browsers */
 		background: -moz-linear-gradient(left,  #f6b5ff 0%, #f6b5ff 5%, #f6b5ff 48%, #dde0ff 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(left,  #f6b5ff 0%,#f6b5ff 5%,#f6b5ff 48%,#dde0ff 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to right,  #f6b5ff 0%,#f6b5ff 5%,#f6b5ff 48%,#dde0ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6b5ff', endColorstr='#dde0ff',GradientType=1 ); /* IE6-9 */
+		background: linear-gradient(to right, rgba(246,181,255,.5) 0%, rgba(242,190,249,0.4) 5%, rgba(246,182,255,0.9) 48%, #dde0ff 100%);
 
-	}
+	//}
 	canvas {
 		display: none;
 	}
