@@ -5,8 +5,10 @@
 	   	 	<div id='content'>
 		        <br><br>
 						<div class='upcoming'><?php the_field('main_text');?></div>
-						<?php $img = get_field('main_image');?>
-	       <img class="poster" src="<?php echo $img['sizes']['medium']; ?>" alt='as it stands la gallery'></img>
+						<?php $img = get_field('main_image');
+            print_r($img);
+            ?>
+	       <img class="poster" src="<?php echo $img['sizes']['large']; ?>" alt='as it stands la gallery'></img>
 	     </div>
 
 
