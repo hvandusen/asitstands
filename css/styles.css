@@ -199,7 +199,7 @@ body canvas { display: none; }
 .poster { width: 45%; margin-right: 2.5%; margin-left: 2.5%; }
 @media (max-width: 480px) { .poster { width: 83%; } }
 
-#address { padding: 1%; padding-bottom: 40px; width: 100%; position: static; bottom: 0; text-align: center; font-size: 1em; font-weight: 600; font-family: TimesNewRoman; }
+#address { padding: 1%; padding-bottom: 40px; width: 100%; position: static; bottom: 0; text-align: center; font-size: 1em; font-weight: 600; font-family: TimesNewRoman; font-family: Helvetica; }
 
 #aa { text-decoration: line-through; }
 
